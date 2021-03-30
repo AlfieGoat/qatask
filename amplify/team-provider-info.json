@@ -1,0 +1,15 @@
+{
+  "qataskdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-qatask-qataskdev-101414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::043701460585:role/amplify-qatask-qataskdev-101414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::043701460585:role/amplify-qatask-qataskdev-101414-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-qatask-qataskdev-101414-deployment",
+      "UnauthRoleName": "amplify-qatask-qataskdev-101414-unauthRole",
+      "StackName": "amplify-qatask-qataskdev-101414",
+      "StackId": "arn:aws:cloudformation:eu-west-2:043701460585:stack/amplify-qatask-qataskdev-101414/4f04c1c0-9138-11eb-bc4b-0ae41cec514c",
+      "AmplifyAppId": "d2py1q4d43vtkj"
+    }
+  }
+}
