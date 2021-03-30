@@ -28,7 +28,7 @@ function App() {
           <input id="location" name="location" />
         </div>
         <div>
-        <button onClick={getWeather}>Click here</button>
+        <button onClick={getWeather}>Get weather!</button>
         </div>
         {weatherData && weatherData !== -274 &&(
           <div>
