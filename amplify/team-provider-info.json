@@ -11,5 +11,30 @@
       "StackId": "arn:aws:cloudformation:eu-west-2:043701460585:stack/amplify-qatask-qataskdev-101414/4f04c1c0-9138-11eb-bc4b-0ae41cec514c",
       "AmplifyAppId": "d2py1q4d43vtkj"
     }
+  },
+  "weatherqa": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-qatask-weatherqa-111145-authRole",
+      "UnauthRoleArn": "arn:aws:iam::145272709055:role/amplify-qatask-weatherqa-111145-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::145272709055:role/amplify-qatask-weatherqa-111145-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-qatask-weatherqa-111145-deployment",
+      "UnauthRoleName": "amplify-qatask-weatherqa-111145-unauthRole",
+      "StackName": "amplify-qatask-weatherqa-111145",
+      "StackId": "arn:aws:cloudformation:us-east-2:145272709055:stack/amplify-qatask-weatherqa-111145/56c5f340-9140-11eb-b3de-021506697758",
+      "AmplifyAppId": "dj7d4tdtdm9kj"
+    },
+    "categories": {
+      "function": {
+        "weatherlambda": {
+          "deploymentBucketName": "amplify-qatask-weatherqa-111145-deployment",
+          "s3Key": "amplify-builds/weatherlambda-79337268507532624644-build.zip"
+        },
+        "weatherlambdalocation": {
+          "deploymentBucketName": "amplify-qatask-weatherqa-111145-deployment",
+          "s3Key": "amplify-builds/weatherlambdalocation-624a7139523635355463-build.zip"
+        }
+      }
+    }
   }
 }

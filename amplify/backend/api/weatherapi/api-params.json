@@ -1,0 +1,54 @@
+{
+    "paths": [
+        {
+            "name": "/weather",
+            "lambdaFunction": "weatherlambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/weather"
+        },
+        {
+            "name": "/weatherLocation/{location}",
+            "lambdaFunction": "weatherlambdalocation",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/weatherLocation/*"
+        }
+    ],
+    "resourceName": "weatherapi",
+    "apiName": "weatherapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "weatherlambda"
+        },
+        {
+            "lambdaFunction": "weatherlambdalocation"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-qatask-weatherqa-111145-authRole",
+        "unAuthRoleName": "amplify-qatask-weatherqa-111145-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "weatherlambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "weatherlambdalocation",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
